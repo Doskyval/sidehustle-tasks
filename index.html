@@ -2,32 +2,40 @@
 <html>
     <head>
         <title>My week one task</title>
-        <link rel="stylesheet"href="style.css">
+        <link rel="stylesheet"href="style.css"> <link/>
     </head>
-    <body style="background-color:rgb(168, 140, 193); position: right">
-        <center>
-        <h1>Fill in your Details</h1>
-        <form method="*"
-             <fieldset>
-                <label for="fullname">Fullname:</label>
-                <input type="text" name="fullname"><br><br>
-                <label for="email">Email Address:</label>
-                <input type="email" name="email" id="email" required><br><br>
-                <label for="phone">Phone number:</label>
-                <input type="tel" id="phone" name="phone" placeholder="123-45-678"><br><br>
-                <label for="male">Male:</label>
-                <input type="radio" name="sex" id="male">
-                <label for="female">Female:</label>
-                <input type="radio"  name="sex" id="female"><br><br>
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" placeholder="alphanumeric"><br><br>
-                <nav>
-                    <input type="submit" value="submit" id="submit-button" 
-                    onclick="alert('Successful')">
-                </nav>
-                
-
-            </fieldset>
-        </center>
+    <body>
+        <div class="image">
+            <section>
+                <div class="container">
+                   <div class="heading"><h2>REGISTER</h2>
+                        <div class="fieldset">
+                          <div class="name1">
+                          <input type="text" name="fullname" placeholder="Fullname" required><br><br>
+                          </div>
+                          <div class="name1">
+                          <input type="email" name="email" id="email" placeholder="Email Address" required><br><br>
+                          </div>
+                          <div class="name1">
+                         <input type="tel" id="phone" name="phone" placeholder="Phonenumber" required><br><br>
+                         </div>
+                          <div class="name1">
+                          <input type="password" id="password" name="password" placeholder="Password" required><br><br>
+                          </div>   
+                          <div class="gender">
+                            <label for="male">Male:</label>
+                            <input type="radio" name="sex" id="male" required>
+                            <label for="female">Female:</label>
+                            <input type="radio"  name="sex" id="female" required><br><br>
+                            </div>                 
+                          <div class="submit-button">
+                          <input type="submit" value="submit" id="submit-button" 
+                          onclick="alert('Successful')">
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
     </body>
 </html>
